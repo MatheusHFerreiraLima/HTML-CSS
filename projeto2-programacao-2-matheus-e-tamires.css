@@ -62,12 +62,12 @@ a > img {
 }
 
 p {
-    padding: 28px 0px 6px 0px; 
+    padding: 28px 0px 32px 0px; 
     height: 108px;
 }
 
 div {
-    padding-top: 9px;
+    padding-top: 45px;
     padding-bottom: 11px;
     margin: 0px 0px 0px 0px;
 }
