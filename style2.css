@@ -1,0 +1,14 @@
+table {
+    display: block;
+}
+
+tr {
+    display: block;
+    background-color: green;
+}
+
+td {
+    display: block;
+    background-color: yellow;
+}
+
