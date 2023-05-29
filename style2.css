@@ -1,14 +1,106 @@
-table {
-    display: block;
+@charset "UTF-8";
+
+
+header {
+    border: 1px solid rgb(221,221,221);
+    text-align: center;
+    min-width:320px;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 1em;
 }
 
-tr {
-    display: block;
-    background-color: green;
+header > h2 {
+    border-bottom: 1px solid rgb(221,221,221);
+    padding: 0.5em 1em 1.5em 1em;
+    
 }
 
-td {
-    display: block;
-    background-color: yellow;
+header a {
+    text-decoration: none;
+    color: rgb(44,103,205);
 }
 
+main {
+    border-right: 1px solid rgb(221,221,221);
+    border-left: 1px solid rgb(221,221,221);
+    border-bottom: 1px solid rgb(221,221,221);
+    min-width:320px;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+section {
+    min-width: 320px;
+    max-width: 800px;
+    padding: 26.5px 1em 9px 1em;
+}
+
+article {
+    padding: 0px 0px 0px 1.8em;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+img {
+    height: 73px;
+    width: 128px;
+    border-radius: 5px;
+}
+
+article h2 {
+    font-family: arial,helvetica,sans-serif;
+    color: rgb(23,41,56);
+    font-size: 1.3em;
+    text-decoration: none;
+
+}
+
+article > p {
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   height: 17vh;
+   line-height: 1.75em;
+
+}
+
+section#ultima {
+    border-top: 1px solid rgb(221,221,221);
+    min-width:320px;
+    max-width: 800px;
+    padding-top: 1px ;
+
+    
+}
+
+section#ultima > p {
+    padding: 0.5em 0em;
+    text-align: right;
+    min-width:320px;
+    max-width: 800px;
+    margin-top: 0px;
+}
+
+img#whatsapp {
+    width: 18px;
+    height: 17px;
+    padding-left: 0px;
+}
+
+footer {
+    
+    background-color: aqua;
+    height: 400px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer > p {
+    border-top: 1px solid black;
+    margin-top: 130px;
+    padding-top: 32px;
+    line-height: 1.75em;
+    font: small/1.5 Arial,Helvetica,sans-serif;
+}
