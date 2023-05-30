@@ -101,9 +101,6 @@ img#whatsapp {
 }
 
 footer {
-    
-    background-color: aqua;
-    height: 400px;
     min-width: 320px;
     max-width: 800px;
     margin: auto;
@@ -113,6 +110,7 @@ footer > p {
     border-top: 1px solid black;
     margin-top: 130px;
     padding-top: 32px;
+    padding-bottom: 32px ;
     line-height: 1.75em;
     font: small/1.5 Arial,Helvetica,sans-serif;
 }
