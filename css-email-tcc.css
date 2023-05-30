@@ -48,6 +48,7 @@ img {
     width: 128px;
     border-radius: 5px;
     float: left;
+    margin: 0px 16px 0px 0px;
 }
 
 article a {
@@ -59,7 +60,6 @@ article h2 {
     color: rgb(23,41,56);
     font-size: 1.3em;
     padding-left: 18px;
-    display: table;
     margin-bottom: 6px;
     
 
@@ -72,9 +72,7 @@ article > p {
    padding: 0px 0px 0px 0px;
    height: 17vh;
    line-height: 1.75em;
-   text-indent: 20px;
-
-
+   
 }
 
 section#ultima {
