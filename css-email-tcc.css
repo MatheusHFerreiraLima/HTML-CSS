@@ -72,6 +72,8 @@ article > p {
    padding: 0px 0px 0px 0px;
    height: 17vh;
    line-height: 1.75em;
+   min-width: 320px;
+   max-width: 720px;
    
 }
 
