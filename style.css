@@ -1,0 +1,27 @@
+td#id1 {
+    text-align: center;
+    border-bottom: 1px solid black; 
+}
+
+h1 {
+    font-family: DauphinPlain;
+}
+
+p.subtitle {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+
+
+}
+
+td {
+    padding-right: 33px;    
+}
+
+h2 {
+    font-family: DauphinPlain;
+}
